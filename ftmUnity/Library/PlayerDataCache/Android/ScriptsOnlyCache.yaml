@@ -1,20 +1,29 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Oculus.Spatializer.dll:
+    - ONSPSettings
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
     - OVRConfig
+    - OVRProjectConfig
+    Oculus.VR.Scripts.Editor.dll:
+    - OVRProjectConfigEditor
     Oculus.VR.dll:
     - OVRCameraRig
-    - OVRCustomSkeleton
     - OVRHand
     - OVRHeadsetEmulator
     - OVRManager
     - OVRMesh
     - OVRMeshRenderer
+    - OVRRuntimeSettings
     - OVRSkeleton
     - OVRSkeletonRenderer
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelinePreferences
+    - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineWindow
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -23,6 +32,12 @@ ScriptsOnlyBuild:
     Unity.XR.Oculus.dll:
     - Unity.XR.Oculus.OculusLoader
     - Unity.XR.Oculus.OculusSettings
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -53,36 +68,34 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
-    - Class: 90
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2038}
+      Script: {instanceID: 2058}
     - Class: 114
-      Script: {instanceID: 2222}
+      Script: {instanceID: 2250}
     - Class: 114
-      Script: {instanceID: 2276}
+      Script: {instanceID: 2310}
     - Class: 114
-      Script: {instanceID: 2346}
+      Script: {instanceID: 2394}
     - Class: 114
-      Script: {instanceID: 2546}
+      Script: {instanceID: 2598}
     - Class: 114
-      Script: {instanceID: 2974}
+      Script: {instanceID: 3040}
     - Class: 114
-      Script: {instanceID: 3562}
+      Script: {instanceID: 3532}
     - Class: 114
-      Script: {instanceID: 4584}
+      Script: {instanceID: 3664}
     - Class: 114
-      Script: {instanceID: 4608}
+      Script: {instanceID: 4748}
     - Class: 114
-      Script: {instanceID: 4844}
+      Script: {instanceID: 4778}
     - Class: 114
-      Script: {instanceID: 5398}
+      Script: {instanceID: 5584}
+    - Class: 114
+      Script: {instanceID: 5606}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 137
@@ -90,6 +103,8 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -172,7 +187,7 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 4abb80cba2d78ed9258136201394eb1a
+      Hash: d8e2a52ca99d0258e884ab7d896395ea
     assemblyName: Unity.XR.Oculus.dll
     namespaceName: Unity.XR.Oculus
     className: OculusSettings
@@ -238,10 +253,16 @@ ScriptsOnlyBuild:
     className: OvrAvatar
   - hash:
       serializedVersion: 2
-      Hash: ed703b018a44c7990cd6f5aeeaa549a8
+      Hash: 54db36642561164121fff6318a96ce13
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVROverlay
+  - hash:
+      serializedVersion: 2
+      Hash: 2392cb57eef55ffeb73c712c36ef086c
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.Utilities
+    className: FloatToStringEvent
   - hash:
       serializedVersion: 2
       Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
@@ -370,7 +391,7 @@ ScriptsOnlyBuild:
     className: PassthroughProjectionSurface
   - hash:
       serializedVersion: 2
-      Hash: 78f582897d7d7ded2a9df1d4f0f49d71
+      Hash: 4a77972d3bdd416f53e7fc29f41ebada
     assemblyName: Oculus.VR.dll
     namespaceName: 
     className: OVRManager
@@ -386,6 +407,18 @@ ScriptsOnlyBuild:
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrVoiceChat
     className: PlatformManager
+  - hash:
+      serializedVersion: 2
+      Hash: 921ab133fefeb95bcd9389b1d7abcfae
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Oculus.Voice.Demo.BuiltInDemo
+    className: WitActivation
+  - hash:
+      serializedVersion: 2
+      Hash: 0a019f584ba2d229ddab5a4e860ca800
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Oculus.Voice.Demo.BuiltInDemo
+    className: TimerDisplay
   - hash:
       serializedVersion: 2
       Hash: 0cc2f729ed4885ca9c95ead34ce0e907
@@ -520,16 +553,16 @@ ScriptsOnlyBuild:
     className: EnableUnpremultipliedAlpha
   - hash:
       serializedVersion: 2
+      Hash: e0cfa2ddf5a65974b76498660fb0d48a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Oculus.Voice.Demo.BuiltInDemo
+    className: TimerController
+  - hash:
+      serializedVersion: 2
       Hash: 84f118e8bb01e4e536b4fe72b0493ca3
     assemblyName: Oculus.LipSync.dll
     namespaceName: 
     className: OVRLipSyncMicInput
-  - hash:
-      serializedVersion: 2
-      Hash: 5f170942ee57c7a568f5bcfc7521adea
-    assemblyName: UnityEngine.TestRunner.dll
-    namespaceName: UnityEngine.TestTools
-    className: EnumerableTestState
   - hash:
       serializedVersion: 2
       Hash: 6aefcb69e398b783525b31c9fd3e99b1
@@ -868,10 +901,22 @@ ScriptsOnlyBuild:
     className: MarkerTrack
   - hash:
       serializedVersion: 2
+      Hash: 6059f9b8098f6840886604f9b0dd54d7
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.Data
+    className: WitStringValue
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
     className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: b0de6682bd26a6b5d358ce76875943a5
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRRuntimeSettings
   - hash:
       serializedVersion: 2
       Hash: 0fd6822f6177297bd0eb4d83cc7a9030
@@ -1000,6 +1045,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 6059f9b8098f6840886604f9b0dd54d7
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.Data
+    className: WitIntValue
+  - hash:
+      serializedVersion: 2
       Hash: c62775f7279ea30b4981a8322d28585a
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.SimplePlatformSample
@@ -1048,6 +1099,12 @@ ScriptsOnlyBuild:
     className: ONSPPropagationMaterial
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.Lib
+    className: Mic
+  - hash:
+      serializedVersion: 2
       Hash: 650c402108f0fc687b451cc4578ed29d
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -1058,6 +1115,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 0eeb3caa1570b20897364b45ca946303
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.CallbackHandlers
+    className: WitUtteranceMatcher
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1090,10 +1153,22 @@ ScriptsOnlyBuild:
     className: OvrAvatarHand
   - hash:
       serializedVersion: 2
-      Hash: 80b4a5e814c455bb563e97280d811bc1
+      Hash: 62c8524b639af72a74523eeb2970689d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DebugUIBuilder
+  - hash:
+      serializedVersion: 2
+      Hash: b970f821e5de6769287984c0f0227b44
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.Data
+    className: WitFloatValue
+  - hash:
+      serializedVersion: 2
+      Hash: 07dbac33d29d75c457493e575853a448
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi
+    className: Wit
   - hash:
       serializedVersion: 2
       Hash: 7d3b4419890d47df531f3744ef978ef0
@@ -1166,6 +1241,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7041e1bd91433677e485572c5d3a9714
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Oculus.Voice.Demo.UIShapesDemo
+    className: Instructions
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1330,6 +1411,12 @@ ScriptsOnlyBuild:
     className: LocomotionController
   - hash:
       serializedVersion: 2
+      Hash: 6251ba8c3f9d20569e5674c91cc2822d
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.CallbackHandlers
+    className: SimpleIntentHandler
+  - hash:
+      serializedVersion: 2
       Hash: 36ae7cc3e989c6df9341b63a0b042603
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
@@ -1340,6 +1427,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportTargetHandlerPhysical
+  - hash:
+      serializedVersion: 2
+      Hash: 5d4089234f303ad937a86a1aaae6652f
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.CallbackHandlers
+    className: WitResponseMatcher
   - hash:
       serializedVersion: 2
       Hash: eab5bd3b00133e5da9183176b8ee43ac
@@ -1396,12 +1489,6 @@ ScriptsOnlyBuild:
     className: OvrAvatarLocalDriver
   - hash:
       serializedVersion: 2
-      Hash: a4b88f3b08f1f148e04c6c3d7544c9ec
-    assemblyName: Oculus.VR.dll
-    namespaceName: 
-    className: OVRChromaticAberration
-  - hash:
-      serializedVersion: 2
       Hash: 6ed0a296f1f1c9a2b22c6f8e635be7c9
     assemblyName: Oculus.VR.dll
     namespaceName: 
@@ -1420,10 +1507,22 @@ ScriptsOnlyBuild:
     className: OVRSkeleton
   - hash:
       serializedVersion: 2
+      Hash: a4b88f3b08f1f148e04c6c3d7544c9ec
+    assemblyName: Oculus.VR.dll
+    namespaceName: 
+    className: OVRChromaticAberration
+  - hash:
+      serializedVersion: 2
       Hash: 908b3077da284d11de0450423ca1808e
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 8485863a397492c6a20c9745dcafdf01
+    assemblyName: VoiceSDK.Runtime.dll
+    namespaceName: Oculus.Voice
+    className: AppVoiceExperience
   - hash:
       serializedVersion: 2
       Hash: 040dd48e3a027d5424519a5fa2009df4
@@ -1492,6 +1591,12 @@ ScriptsOnlyBuild:
     className: OVRInputModule
   - hash:
       serializedVersion: 2
+      Hash: 1f9895efbc72346ae468ab4670c88443
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Oculus.Voice.Demo.UIShapesDemo
+    className: InteractionHandler
+  - hash:
+      serializedVersion: 2
       Hash: ef5c43f921427d03730f6ea4c848f07d
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -1516,16 +1621,16 @@ ScriptsOnlyBuild:
     className: TMP_Settings
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Oculus.Platform.dll
-    namespaceName: Oculus.Platform.Samples.VrHoops
-    className: AIPlayer
-  - hash:
-      serializedVersion: 2
       Hash: c62775f7279ea30b4981a8322d28585a
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.NetChat
     className: DataEntry
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Oculus.Platform.dll
+    namespaceName: Oculus.Platform.Samples.VrHoops
+    className: AIPlayer
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1660,10 +1765,22 @@ ScriptsOnlyBuild:
     className: OvrAvatarTestDriver
   - hash:
       serializedVersion: 2
+      Hash: 6574fb8efa3fdbba7298bd7751781ea9
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.Data.Configuration
+    className: WitConfiguration
+  - hash:
+      serializedVersion: 2
       Hash: fd68d84f33fad85aac38f2739c0ee270
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: d821a198d0ab43dba38d5be137691ad9
+    assemblyName: Facebook.WitAI.dll
+    namespaceName: Facebook.WitAi.CallbackHandlers
+    className: SimpleStringEntityHandler
   - hash:
       serializedVersion: 2
       Hash: e269129a92a880f5211d20d6b89e9cf1
@@ -1750,7 +1867,7 @@ ScriptsOnlyBuild:
     className: OvrAvatarTextureCopyManager
   - hash:
       serializedVersion: 2
-      Hash: b00ce1f32326f1cd1160488ffd14965a
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Oculus.VR.Editor.dll
     namespaceName: 
     className: OVRConfig
@@ -1834,6 +1951,12 @@ ScriptsOnlyBuild:
     className: GridLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Oculus.Voice.Demo.UIShapesDemo
+    className: ColorChanger
+  - hash:
+      serializedVersion: 2
       Hash: abf1930d8126d0b2e00e9449129a0190
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -1877,4 +2000,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MidwayDemo.unity
-  playerPath: /Users/xavierruiz/Desktop/ftm/ftmUnity/FirstBuild.apk
+  playerPath: /Users/xavierruiz/Desktop/ftm/ftmUnity/firstBuild.apk
