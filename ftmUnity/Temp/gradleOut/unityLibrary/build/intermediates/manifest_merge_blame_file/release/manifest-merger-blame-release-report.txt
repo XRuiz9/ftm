@@ -162,7 +162,7 @@
 87-->/Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:5-101
 88            android:name="unity.build-id"
 88-->/Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:16-45
-89            android:value="cf6c77e6-ee6f-4369-9b18-4d76a3a72664" />
+89            android:value="356f810b-876b-41e6-8f48-5f3e76e7a1df" />
 89-->/Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:19:46-98
 90        <meta-data
 90-->/Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/src/main/AndroidManifest.xml:20:5-87

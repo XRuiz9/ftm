@@ -1,0 +1,22 @@
+print "Starting maya loading and fbx conversion \n";
+	
+if (`file -q -exists "/Users/xavierruiz/Desktop/ftm/ftmUnity/Assets/Maya/scenes/Pillow.mb"`)
+{		
+	file -o "/Users/xavierruiz/Desktop/ftm/ftmUnity/Assets/Maya/scenes/Pillow.mb";
+	FBXExportEmbeddedTextures -v false;
+	// FBXExportHardEdges -v true;
+	FBXExportApplyConstantKeyReducer -v false;
+	FBXExportShowUI -v false;
+
+	print "Before fbx export\n";
+	FBXExport -f "/Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/ExportedFBXFile.fbx";
+	print "after fbx export\n";
+}
+else
+	print "Could not open Maya file.";
+
+sysFile -delete "/Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/CommandPipe";
+
+$donepipeKill = `fopen "/Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/SyncPipeKill" "w"`;
+fwrite $donepipeKill "Done";
+fclose $donepipeKill;

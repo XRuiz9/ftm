@@ -3,7 +3,9 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - ColorChanger
     - CustomHand
+    - FaceOnSpawn
     - Instantiate
+    - toFace
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -44,12 +46,6 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEngine.UI.dll:
-    - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.GraphicRaycaster
-    - UnityEngine.UI.Text
   sceneClasses:
     Assets/Scenes/MidwayDemo.unity:
     - Class: 1
@@ -89,8 +85,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1622}
-    - Class: 114
       Script: {instanceID: 1936}
     - Class: 114
       Script: {instanceID: 2060}
@@ -103,38 +97,30 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 2812}
+      Script: {instanceID: 3030}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 3046}
     - Class: 114
-      Script: {instanceID: 3042}
+      Script: {instanceID: 3156}
     - Class: 114
-      Script: {instanceID: 3152}
+      Script: {instanceID: 3544}
     - Class: 114
-      Script: {instanceID: 3182}
+      Script: {instanceID: 3570}
     - Class: 114
-      Script: {instanceID: 3454}
+      Script: {instanceID: 3678}
     - Class: 114
-      Script: {instanceID: 3536}
+      Script: {instanceID: 4648}
     - Class: 114
-      Script: {instanceID: 3562}
+      Script: {instanceID: 4764}
     - Class: 114
-      Script: {instanceID: 3670}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 4754}
+      Script: {instanceID: 5038}
     - Class: 114
-      Script: {instanceID: 4784}
+      Script: {instanceID: 5600}
     - Class: 114
-      Script: {instanceID: 5028}
-    - Class: 114
-      Script: {instanceID: 5590}
-    - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 5622}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 135
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
@@ -143,12 +129,6 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -627,6 +607,12 @@ ScriptsOnlyBuild:
     className: LipSyncDemo_Control
   - hash:
       serializedVersion: 2
+      Hash: c6d94e38a727101dd467b56d57d9c12f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SmoothMouseLook
+  - hash:
+      serializedVersion: 2
       Hash: 2d75dd1753213123772f51e8448cd92e
     assemblyName: Oculus.Platform.dll
     namespaceName: Oculus.Platform.Samples.VrBoardGame
@@ -741,6 +727,12 @@ ScriptsOnlyBuild:
     className: BoneCapsuleTriggerLogic
   - hash:
       serializedVersion: 2
+      Hash: 82bce7891421d8461e5496f90b260add
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: toFace
+  - hash:
+      serializedVersion: 2
       Hash: 349fc863c5f9c0b3f7471af2e318712a
     assemblyName: Oculus.LipSync.dll
     namespaceName: 
@@ -817,6 +809,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestRunner.Utils
     className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 9c8ffb3264454a107cc86e9cb9e09cf6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: checker
   - hash:
       serializedVersion: 2
       Hash: ae83e830e7a90c0aff918c4c2e520825
@@ -901,6 +899,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: GrabManager
+  - hash:
+      serializedVersion: 2
+      Hash: f9466d174b728c0ac446464f6da7879e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Verb
   - hash:
       serializedVersion: 2
       Hash: 4c063458ca029e84d4f59c22fc3c5fca
@@ -1489,6 +1493,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: TeleportTargetHandlerPhysical
+  - hash:
+      serializedVersion: 2
+      Hash: 0d85f4fda1e0e70cd92c084d12f05cdc
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FaceOnSpawn
   - hash:
       serializedVersion: 2
       Hash: 5d4089234f303ad937a86a1aaae6652f

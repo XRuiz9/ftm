@@ -1,2 +1,36 @@
+# Starting compiling UnityEngine.TestRunner.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-952b965df8db94ef2ae9a66cb97fddb8
+# Starting compiling UnityEngine.UI.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-285eb42ee0a734fbebf689766d7982b3
+# Starting compiling Oculus.Spatializer.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-4fd01725677c94fbfa98276c0f8b0077
+# Starting compiling Unity.Timeline.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-6837a111fa7ae48b0ad2c35061aadefa
+# Starting compiling Unity.TextMeshPro.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-ae3c37db85bac4031878750022f2ec8a
+# Starting compiling AssistantCoreSDKRuntime.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-0a71e276f356d402888fdbf7751d99e6
+# Starting compiling Unity.Subsystem.Registration.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f260b117959de4732a5965d7e2b8e04a
+# Starting compiling UnityEngine.SpatialTracking.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-51108c85b6e65467e9bdb31148316c9b
+# Starting compiling Facebook.WitAI.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-abdc7cb4866e24ebda6351c3d7248cb8
+# Starting compiling Oculus.VR.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-029d2ecd20b104329a3d53c0b9dc19cc
+# Starting compiling Unity.XR.Management.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-3fff1b20cfe764052b70b2285e9a20ad
+# Starting compiling Oculus.Platform.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9c8fb173df09545e7be1e53b8b136b4d
+# Starting compiling Oculus.LipSync.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-7f8715f077c3e4a63a7f0393fcd6e260
+# Starting compiling Oculus.AudioManager.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-b0bc95bf0080d453197d8f5c6dc04aa7
+# Starting compiling UnityEngine.XR.LegacyInputHelpers.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-f12ec83f989614c6693548171681bd12
+# Starting compiling Unity.XR.Oculus.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-dd149609767cd4880aff8b77d5400d1b
+# Starting compiling VoiceSDK.Runtime.dll
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-9ec9a214b3b64491381f3f4341a4e842
 # Starting compiling Assembly-CSharp.dll
-/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-13df81cf785fb44a6b19fbf5c69b182b
+/Applications/2020.3.19f1/Unity.app/Contents/Tools/RoslynScripts/unity_csc.sh /noconfig @Temp/UnityTempFile-c1011e5bc99d04104aa286b3116a8036
