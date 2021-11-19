@@ -176,7 +176,7 @@
 94-->[:unityLibrary] /Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:87:9-89:68
 95            android:name="unity.build-id"
 95-->[:unityLibrary] /Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:88:13-42
-96            android:value="5209aae6-d9c0-427d-91b7-c1f9bfc4b969" />
+96            android:value="cf6c77e6-ee6f-4369-9b18-4d76a3a72664" />
 96-->[:unityLibrary] /Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:89:13-65
 97        <meta-data
 97-->[:unityLibrary] /Users/xavierruiz/Desktop/ftm/ftmUnity/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:90:9-92:35
