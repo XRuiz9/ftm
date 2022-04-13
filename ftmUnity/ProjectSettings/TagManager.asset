@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Pillow
+  - Center
+  - Boundary
   layers:
   - Default
   - TransparentFX

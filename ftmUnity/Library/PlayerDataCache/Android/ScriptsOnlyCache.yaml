@@ -1,11 +1,10 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ColorChanger
+    - Collision
     - CustomHand
-    - FaceOnSpawn
-    - Instantiate
-    - toFace
+    - MatchRotation
+    - WombAudioQueue
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -14,6 +13,7 @@ ScriptsOnlyBuild:
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRControllerHelper
+    - OVRCustomSkeleton
     - OVRHand
     - OVRHeadsetEmulator
     - OVRManager
@@ -26,8 +26,19 @@ ScriptsOnlyBuild:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.Timeline.Editor.dll:
     - TimelinePreferences
+    - TimelineProjectSettings
+    - UnityEditor.Timeline.AnimationPlayableAssetInspector
+    - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
+    Unity.Timeline.dll:
+    - UnityEngine.Timeline.AnimationPlayableAsset
+    - UnityEngine.Timeline.AnimationTrack
+    - UnityEngine.Timeline.AudioPlayableAsset
+    - UnityEngine.Timeline.AudioTrack
+    - UnityEngine.Timeline.MarkerTrack
+    - UnityEngine.Timeline.TimelineAsset
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
     Unity.XR.Management.dll:
@@ -39,8 +50,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -66,11 +79,17 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -85,7 +104,7 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1936}
+      Script: {instanceID: 1674}
     - Class: 114
       Script: {instanceID: 2060}
     - Class: 114
@@ -97,38 +116,58 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2600}
     - Class: 114
-      Script: {instanceID: 3030}
+      Script: {instanceID: 2970}
     - Class: 114
-      Script: {instanceID: 3046}
+      Script: {instanceID: 2972}
     - Class: 114
-      Script: {instanceID: 3156}
+      Script: {instanceID: 3012}
     - Class: 114
-      Script: {instanceID: 3544}
+      Script: {instanceID: 3048}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 3678}
+      Script: {instanceID: 3518}
     - Class: 114
-      Script: {instanceID: 4648}
+      Script: {instanceID: 3548}
     - Class: 114
-      Script: {instanceID: 4764}
+      Script: {instanceID: 3574}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 3682}
     - Class: 114
-      Script: {instanceID: 5038}
+      Script: {instanceID: 4112}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 4170}
     - Class: 114
-      Script: {instanceID: 5622}
+      Script: {instanceID: 4242}
+    - Class: 114
+      Script: {instanceID: 4772}
+    - Class: 114
+      Script: {instanceID: 4802}
+    - Class: 114
+      Script: {instanceID: 5046}
+    - Class: 114
+      Script: {instanceID: 5054}
+    - Class: 114
+      Script: {instanceID: 5608}
+    - Class: 114
+      Script: {instanceID: 5630}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 137
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
+    - Class: 183
+      Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 320
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -721,6 +760,12 @@ ScriptsOnlyBuild:
     className: GrabObject
   - hash:
       serializedVersion: 2
+      Hash: 0284c30cc9e28dc3a84a7209e570ecc8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Collision
+  - hash:
+      serializedVersion: 2
       Hash: 163c66cebee3ffd65522e6a24263575f
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
@@ -967,6 +1012,12 @@ ScriptsOnlyBuild:
     className: WitStringValue
   - hash:
       serializedVersion: 2
+      Hash: f20c3ade0aab90b842738481c58ce6a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WombAudioQueue
+  - hash:
+      serializedVersion: 2
       Hash: 8e6ceabfd38a184413d69b7db56c89cc
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -1111,6 +1162,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: 50bd354a4d449876b0b86dec070eee01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: toAdopt
+  - hash:
+      serializedVersion: 2
       Hash: 6059f9b8098f6840886604f9b0dd54d7
     assemblyName: Facebook.WitAI.dll
     namespaceName: Facebook.WitAi.Data
@@ -1235,6 +1292,12 @@ ScriptsOnlyBuild:
     assemblyName: Facebook.WitAI.dll
     namespaceName: Facebook.WitAi
     className: Wit
+  - hash:
+      serializedVersion: 2
+      Hash: a210fb5a2c04a617afe4bf256f626eea
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MatchRotation
   - hash:
       serializedVersion: 2
       Hash: 7d3b4419890d47df531f3744ef978ef0
@@ -2072,4 +2135,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/MidwayDemo.unity
-  playerPath: /Users/xavierruiz/Desktop/ftm/ftmUnity/firstBuild.apk
+  playerPath: /Users/xavierruiz/dev/ftm/ftmUnity/firstwomb.apk

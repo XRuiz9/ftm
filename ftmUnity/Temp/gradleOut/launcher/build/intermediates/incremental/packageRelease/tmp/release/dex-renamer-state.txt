@@ -1,0 +1,4 @@
+#Wed Apr 13 16:08:18 EDT 2022
+base.0=/Users/xavierruiz/dev/ftm/ftmUnity/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
