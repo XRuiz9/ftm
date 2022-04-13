@@ -997,3 +997,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 5409.312382 seconds.
+  path: Assets/Scenes/MidwayDemo.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MidwayDemo.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788903cf2ad8bf0f769c2b59960817e9') in 0.026541 seconds 
+  Import took 0.031308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.053906 seconds.
+  path: Assets/Scenes/MidwayDemo 1.unity
+  artifactKey: Guid(74946847c026f46c2932e3277b1e3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MidwayDemo 1.unity using Guid(74946847c026f46c2932e3277b1e3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7a1da9af4ce4c26d0f12470335f1d0') in 0.002398 seconds 
+  Import took 0.005886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.992164 seconds.
+  path: Assets/Materials/MidwayDemoSky.mat
+  artifactKey: Guid(dae92f25e0a654ab5a1b9d24b7612650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MidwayDemoSky.mat using Guid(dae92f25e0a654ab5a1b9d24b7612650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51aa27e065fcd2ad68c15b2d1faa977d') in 0.151372 seconds 
+  Import took 0.157068 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.151479 seconds.
+  path: Assets/Materials/ThesisSky.mat
+  artifactKey: Guid(825f7f9ad378c4771bbda357e4e354ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/ThesisSky.mat using Guid(825f7f9ad378c4771bbda357e4e354ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558e3fd00af2468af192fd46cedd94b4') in 0.027610 seconds 
+  Import took 0.031563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 802.330137 seconds.
+  path: Assets/Scenes/Thesis.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Thesis.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '952eca0b529d0ae555095818e65004eb') in 0.002323 seconds 
+  Import took 0.007005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.464175 seconds.
+  path: Assets/Scenes/MidwayDemo.unity
+  artifactKey: Guid(74946847c026f46c2932e3277b1e3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MidwayDemo.unity using Guid(74946847c026f46c2932e3277b1e3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bc3c085fbb786d302432dfe2dbab20') in 0.001407 seconds 
+  Import took 0.005248 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.268480 seconds.
+  path: Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat
+  artifactKey: Guid(7c4fbc253f678a74f8135c524ac84bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/HandsInteraction/Materials/TargetMaterial.mat using Guid(7c4fbc253f678a74f8135c524ac84bfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5972ce102b4651a681cfa9a85d5765a3') in 0.056576 seconds 
+  Import took 0.060100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_CinemaText.mat
+  artifactKey: Guid(a637033578b1e584f9d9f4d5255d5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_CinemaText.mat using Guid(a637033578b1e584f9d9f4d5255d5998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ebd5fe603db082acf93f14433568a5') in 0.051801 seconds 
+  Import took 0.054888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_360Photo.mat
+  artifactKey: Guid(8388a76b6d38060498be3f057adc62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_360Photo.mat using Guid(8388a76b6d38060498be3f057adc62fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5e66d620d1b4928212c82eacd3e58e') in 0.010572 seconds 
+  Import took 0.013526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_BackgroundHighlight.mat
+  artifactKey: Guid(081039a448bec6e48827af5f9b606f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_BackgroundHighlight.mat using Guid(081039a448bec6e48827af5f9b606f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '365c1b37d5f3e1e44e7a3e1675923ce5') in 0.007727 seconds 
+  Import took 0.010901 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Oculus/SampleFramework/Core/Locomotion/Materials/TeleportLaser.mat
+  artifactKey: Guid(a379cec2ba497874788d17eb312c61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Core/Locomotion/Materials/TeleportLaser.mat using Guid(a379cec2ba497874788d17eb312c61be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64be881942125e49d58beac757df063a') in 0.007311 seconds 
+  Import took 0.010167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Farlands.mat
+  artifactKey: Guid(b2e6fa7c3e83eee489247ced515747cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Farlands.mat using Guid(b2e6fa7c3e83eee489247ced515747cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '456a06f1cda80f4c3d54838848c2aaad') in 0.012408 seconds 
+  Import took 0.015290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Cinema.mat
+  artifactKey: Guid(354a5d3fc93892c44978423fd55d7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/OVROverlay/Materials/Tile_Mat_Cinema.mat using Guid(354a5d3fc93892c44978423fd55d7196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e700f5f0c7affde6bf887b1903dd12') in 0.013632 seconds 
+  Import took 0.016491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 60.211953 seconds.
+  path: Assets/Maya/scenes/Womb.mb
+  artifactKey: Guid(e7e754dc5126f4a57a347339255d9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Maya/scenes/Womb.mb using Guid(e7e754dc5126f4a57a347339255d9e26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) WARNING: RGBA Compressed ASTC6X6 sRGB format is not supported, decompressing texture
+ -> (artifact id: 'a97dd0305ffc8f46a945449f8e80b67e') in 0.643965 seconds 
+  Import took 0.648233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.662742 seconds.
+  path: Assets/Materials/MidwayDemoSky.mat
+  artifactKey: Guid(dae92f25e0a654ab5a1b9d24b7612650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/MidwayDemoSky.mat using Guid(dae92f25e0a654ab5a1b9d24b7612650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e690cd16faa4ee17e0cd64f94a6d5b5') in 0.061226 seconds 
+  Import took 0.064596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.996467 seconds.
+  path: Assets/Scenes/MidwayDemo.unity
+  artifactKey: Guid(74946847c026f46c2932e3277b1e3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MidwayDemo.unity using Guid(74946847c026f46c2932e3277b1e3805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501d71c3039f2d7186dada08b62bd161') in 0.001860 seconds 
+  Import took 0.005398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.926511 seconds.
+  path: Assets/Scenes/Womb.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Womb.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba35b71a3ad71f5de3cd3189d0759849') in 0.001482 seconds 
+  Import took 0.004836 seconds .
+
