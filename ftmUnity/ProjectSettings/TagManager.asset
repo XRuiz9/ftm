@@ -7,6 +7,7 @@ TagManager:
   - Pillow
   - Center
   - Boundary
+  - Womb
   layers:
   - Default
   - TransparentFX

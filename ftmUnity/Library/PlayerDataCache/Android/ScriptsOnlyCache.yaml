@@ -4,7 +4,7 @@ ScriptsOnlyBuild:
     - Collision
     - CustomHand
     - MatchRotation
-    - WombAudioQueue
+    - WombControls
     Oculus.Spatializer.dll:
     - ONSPSettings
     Oculus.VR.Editor.dll:
@@ -28,8 +28,8 @@ ScriptsOnlyBuild:
     - TimelinePreferences
     - TimelineProjectSettings
     - UnityEditor.Timeline.AnimationPlayableAssetInspector
-    - UnityEditor.Timeline.EditorClip
     - UnityEditor.Timeline.SequenceHierarchy
+    - UnityEditor.Timeline.Signals.SignalReceiverInspector
     - UnityEditor.Timeline.TimelineAssetViewModel
     - UnityEditor.Timeline.TimelineWindow
     Unity.Timeline.dll:
@@ -38,6 +38,10 @@ ScriptsOnlyBuild:
     - UnityEngine.Timeline.AudioPlayableAsset
     - UnityEngine.Timeline.AudioTrack
     - UnityEngine.Timeline.MarkerTrack
+    - UnityEngine.Timeline.SignalAsset
+    - UnityEngine.Timeline.SignalEmitter
+    - UnityEngine.Timeline.SignalReceiver
+    - UnityEngine.Timeline.SignalTrack
     - UnityEngine.Timeline.TimelineAsset
     Unity.XR.Management.Editor.dll:
     - UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget
@@ -60,7 +64,7 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
   sceneClasses:
-    Assets/Scenes/MidwayDemo.unity:
+    Assets/Scenes/Womb.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -106,6 +110,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1674}
     - Class: 114
+      Script: {instanceID: 1798}
+    - Class: 114
       Script: {instanceID: 2060}
     - Class: 114
       Script: {instanceID: 2252}
@@ -126,8 +132,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3506}
     - Class: 114
-      Script: {instanceID: 3518}
-    - Class: 114
       Script: {instanceID: 3548}
     - Class: 114
       Script: {instanceID: 3574}
@@ -140,7 +144,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4242}
     - Class: 114
+      Script: {instanceID: 4498}
+    - Class: 114
       Script: {instanceID: 4772}
+    - Class: 114
+      Script: {instanceID: 4780}
     - Class: 114
       Script: {instanceID: 4802}
     - Class: 114
@@ -151,6 +159,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5608}
     - Class: 114
       Script: {instanceID: 5630}
+    - Class: 114
+      Script: {instanceID: 5686}
+    - Class: 114
+      Script: {instanceID: 36498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 135
@@ -760,7 +772,7 @@ ScriptsOnlyBuild:
     className: GrabObject
   - hash:
       serializedVersion: 2
-      Hash: 0284c30cc9e28dc3a84a7209e570ecc8
+      Hash: f2168deb1ddd2f21ea12b11c25260040
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Collision
@@ -2132,7 +2144,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: OculusSampleFramework
     className: TrackSegment
+  - hash:
+      serializedVersion: 2
+      Hash: 12dedb25524e20e070e91f23fde519cd
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: WombControls
   platform: 13
   scenePathNames:
-  - Assets/Scenes/MidwayDemo.unity
+  - Assets/Scenes/Womb.unity
   playerPath: /Users/xavierruiz/dev/ftm/ftmUnity/firstwomb.apk
